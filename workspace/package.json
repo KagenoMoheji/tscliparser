@@ -1,0 +1,57 @@
+{
+  "name": "tscliparser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register --require tsconfig-paths/register --watch-extensions ts \"./**/src/test/**/*.test.ts\"",
+    "onetest": "mocha --require ts-node/register --require tsconfig-paths/register --watch-extensions ts",
+    "dev@webpack": "webpack --config webpack.dev.js",
+    "build@webpack": "webpack --config webpack.prod.js",
+    "tsc": "tsc",
+    "watch": "webpack -w --config webpack.dev.js",
+    "lint": "eslint './**/src/**/*.{ts,tsx}'",
+    "onefix": "eslint --fix",
+    "analyze": "webpack-bundle-analyzer --host 0.0.0.0 --port 8765 ./webpack_build/stats/stats.json",
+    "prepare": "tsc",
+    "build": "tsc"
+  },
+  "keywords": [
+    "cli",
+    "parser",
+    "cliparser",
+    "tscliparser",
+    "command"
+  ],
+  "author": "Goki Sugimura",
+  "homepage": "https://github.com/KagenoMoheji/tscliparser",
+  "bugs": {
+    "url": "https://github.com/KagenoMoheji/tscliparser/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.16",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^14.14.41",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "chai": "^4.3.4",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "mocha": "^8.3.2",
+    "prettier": "^2.2.1",
+    "readline": "^1.3.0",
+    "ts-loader": "^9.0.0",
+    "ts-node": "^9.1.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.2.4",
+    "util": "^0.12.3",
+    "webpack": "^5.33.2",
+    "webpack-bundle-analyzer": "^4.4.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,32 @@
+version: "3"
+
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: ./docker/dev/Dockerfile
+      args:
+        SHARED_WORKSPACE_HOST: ${SHARED_WORKSPACE_HOST}
+        SHARED_WORKSPACE_CONTAINER: ${SHARED_WORKSPACE_CONTAINER}
+        NODE_VERSION: ${NODE_VERSION}
+    image: tscliparser_dev
+    container_name: tscliparser_dev
+    ports:
+      # webpack-bundle-analyzer用
+      - 8765:8765
+    volumes:
+      - ./${SHARED_WORKSPACE_HOST}:${SHARED_WORKSPACE_CONTAINER}
+      # ---------------------------------------------------------------------------
+      # コンテナ側のnode_modulesディレクトリをホスト側に持ってこないようにする．
+      # https://stackoverflow.com/a/37898591
+      # なんかディレクトリ作られるけど，中身はホストへ共有されてない．まぁいいか…？
+      # でもこれをすると，ホスト側の開発でエラーの赤波線が出てしまう…
+      # - ${SHARED_WORKSPACE_CONTAINER}/frontend/node_modules/
+      # - ${SHARED_WORKSPACE_CONTAINER}/backend/node_modules/
+      # ---------------------------------------------------------------------------
+      # 下記は緊急編集用．
+      - ./docker/dev/tools:/opt/docker/tools
+      # ---------------------------------------------------------------------------
+    tty: true
+
+

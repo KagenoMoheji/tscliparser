@@ -1,0 +1,1349 @@
+{
+  "hash": "b83e180165577e502264",
+  "version": "5.33.2",
+  "time": 17231,
+  "builtAt": 1619460128697,
+  "publicPath": "",
+  "outputPath": "/opt/workspace/webpack_build",
+  "assetsByChunkName": {
+    "dist/displayhtml": [
+      "dist/displayhtml_dev.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "dist/displayhtml_dev.js",
+      "size": 58638,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "size": 58638
+      },
+      "chunkNames": [
+        "dist/displayhtml"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "dist/displayhtml"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "../dist/src/types/typesTsCliParser.d.ts",
+      "size": 973,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 973
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "../dist/sample/main/displayHtml.d.ts",
+      "size": 642,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 642
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "../dist/src/tscliparser.d.ts",
+      "size": 479,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 479
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "../dist/src/errhandle/errorsTsCliParser.d.ts",
+      "size": 180,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "size": 180
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 13524,
+      "sizes": {
+        "javascript": 13401,
+        "runtime": 123
+      },
+      "names": [
+        "dist/displayhtml"
+      ],
+      "idHints": [],
+      "runtime": [
+        "dist/displayhtml"
+      ],
+      "files": [
+        "dist/displayhtml_dev.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "66e39dc2576e10e57655",
+      "childrenByOrder": {},
+      "id": "dist/displayhtml",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1914,
+          "sizes": {
+            "javascript": 1914
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "name": "./sample/main/displayHtml.ts",
+          "nameForCondition": "/opt/workspace/sample/main/displayHtml.ts",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./sample/main/displayHtml.ts",
+          "issuerId": null,
+          "chunks": [
+            "dist/displayhtml"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "module": "./sample/main/displayHtml.ts",
+              "moduleName": "./sample/main/displayHtml.ts",
+              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "resolvedModule": "./sample/main/displayHtml.ts",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2:23-27",
+              "moduleId": "./sample/main/displayHtml.ts",
+              "resolvedModuleId": "./sample/main/displayHtml.ts"
+            },
+            {
+              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "module": "./sample/main/displayHtml.ts",
+              "moduleName": "./sample/main/displayHtml.ts",
+              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "resolvedModule": "./sample/main/displayHtml.ts",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2:31-51",
+              "moduleId": "./sample/main/displayHtml.ts",
+              "resolvedModuleId": "./sample/main/displayHtml.ts"
+            },
+            {
+              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "module": "./sample/main/displayHtml.ts",
+              "moduleName": "./sample/main/displayHtml.ts",
+              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "resolvedModule": "./sample/main/displayHtml.ts",
+              "type": "module decorator",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "44:21-27",
+              "moduleId": "./sample/main/displayHtml.ts",
+              "resolvedModuleId": "./sample/main/displayHtml.ts"
+            },
+            {
+              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "module": "./sample/main/displayHtml.ts",
+              "moduleName": "./sample/main/displayHtml.ts",
+              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "resolvedModule": "./sample/main/displayHtml.ts",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "45:4-27",
+              "moduleId": "./sample/main/displayHtml.ts",
+              "resolvedModuleId": "./sample/main/displayHtml.ts"
+            },
+            {
+              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "module": "./sample/main/displayHtml.ts",
+              "moduleName": "./sample/main/displayHtml.ts",
+              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "resolvedModule": "./sample/main/displayHtml.ts",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "46:22-49",
+              "moduleId": "./sample/main/displayHtml.ts",
+              "resolvedModuleId": "./sample/main/displayHtml.ts"
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/opt/workspace/sample/main/displayHtml.ts",
+              "loc": "dist/displayhtml",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1700,
+          "sizes": {
+            "javascript": 1700
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/errhandle/errorsTsCliParser.ts",
+          "name": "./src/errhandle/errorsTsCliParser.ts",
+          "nameForCondition": "/opt/workspace/src/errhandle/errorsTsCliParser.ts",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+          "issuerName": "./src/tscliparser.ts",
+          "issuerPath": [
+            {
+              "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "name": "./sample/main/displayHtml.ts",
+              "id": "./sample/main/displayHtml.ts"
+            },
+            {
+              "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+              "name": "./src/tscliparser.ts",
+              "id": "./src/tscliparser.ts"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/errhandle/errorsTsCliParser.ts",
+          "issuerId": "./src/tscliparser.ts",
+          "chunks": [
+            "dist/displayhtml"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/errhandle/errorsTsCliParser.ts",
+              "module": "./src/errhandle/errorsTsCliParser.ts",
+              "moduleName": "./src/errhandle/errorsTsCliParser.ts",
+              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/errhandle/errorsTsCliParser.ts",
+              "resolvedModule": "./src/errhandle/errorsTsCliParser.ts",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2:17-21",
+              "moduleId": "./src/errhandle/errorsTsCliParser.ts",
+              "resolvedModuleId": "./src/errhandle/errorsTsCliParser.ts"
+            },
+            {
+              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/errhandle/errorsTsCliParser.ts",
+              "module": "./src/errhandle/errorsTsCliParser.ts",
+              "moduleName": "./src/errhandle/errorsTsCliParser.ts",
+              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/errhandle/errorsTsCliParser.ts",
+              "resolvedModule": "./src/errhandle/errorsTsCliParser.ts",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "2:25-39",
+              "moduleId": "./src/errhandle/errorsTsCliParser.ts",
+              "resolvedModuleId": "./src/errhandle/errorsTsCliParser.ts"
+            },
+            {
+              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+              "module": "./src/tscliparser.ts",
+              "moduleName": "./src/tscliparser.ts",
+              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+              "resolvedModule": "./src/tscliparser.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "~/errhandle/errorsTsCliParser",
+              "loc": "5:26-66",
+              "moduleId": "./src/tscliparser.ts",
+              "resolvedModuleId": "./src/tscliparser.ts"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:17-21"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 8719,
+          "sizes": {
+            "javascript": 8719
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+          "name": "./src/tscliparser.ts",
+          "nameForCondition": "/opt/workspace/src/tscliparser.ts",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "issuerName": "./sample/main/displayHtml.ts",
+          "issuerPath": [
+            {
+              "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "name": "./sample/main/displayHtml.ts",
+              "id": "./sample/main/displayHtml.ts"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/tscliparser.ts",
+          "issuerId": "./sample/main/displayHtml.ts",
+          "chunks": [
+            "dist/displayhtml"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "module": "./sample/main/displayHtml.ts",
+              "moduleName": "./sample/main/displayHtml.ts",
+              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "resolvedModule": "./sample/main/displayHtml.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "~~/src/tscliparser",
+              "loc": "7:20-49",
+              "moduleId": "./sample/main/displayHtml.ts",
+              "resolvedModuleId": "./sample/main/displayHtml.ts"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "CliParser",
+            "__esModule"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 984,
+          "sizes": {
+            "javascript": 984
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/types/typesTsCliParser.ts",
+          "name": "./src/types/typesTsCliParser.ts",
+          "nameForCondition": "/opt/workspace/src/types/typesTsCliParser.ts",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+          "issuerName": "./src/tscliparser.ts",
+          "issuerPath": [
+            {
+              "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "name": "./sample/main/displayHtml.ts",
+              "id": "./sample/main/displayHtml.ts"
+            },
+            {
+              "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+              "name": "./src/tscliparser.ts",
+              "id": "./src/tscliparser.ts"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/types/typesTsCliParser.ts",
+          "issuerId": "./src/tscliparser.ts",
+          "chunks": [
+            "dist/displayhtml"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+              "module": "./src/tscliparser.ts",
+              "moduleName": "./src/tscliparser.ts",
+              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+              "resolvedModule": "./src/tscliparser.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "~/types/typesTsCliParser",
+              "loc": "4:25-60",
+              "moduleId": "./src/tscliparser.ts",
+              "resolvedModuleId": "./src/tscliparser.ts"
+            },
+            {
+              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/types/typesTsCliParser.ts",
+              "module": "./src/types/typesTsCliParser.ts",
+              "moduleName": "./src/types/typesTsCliParser.ts",
+              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/types/typesTsCliParser.ts",
+              "resolvedModule": "./src/types/typesTsCliParser.ts",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "25:9-33",
+              "moduleId": "./src/types/typesTsCliParser.ts",
+              "resolvedModuleId": "./src/types/typesTsCliParser.ts"
+            },
+            {
+              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/types/typesTsCliParser.ts",
+              "module": "./src/types/typesTsCliParser.ts",
+              "moduleName": "./src/types/typesTsCliParser.ts",
+              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/types/typesTsCliParser.ts",
+              "resolvedModule": "./src/types/typesTsCliParser.ts",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "25:51-74",
+              "moduleId": "./src/types/typesTsCliParser.ts",
+              "resolvedModuleId": "./src/types/typesTsCliParser.ts"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "__esModule",
+            "isCommonOption",
+            "isHelpOption",
+            "isOptionAdvanced",
+            "isValueAdvanced"
+          ],
+          "optimizationBailout": [
+            "CommonJS bailout: exports.isOptionAdvanced(...) prevents optimization as exports is passed as call context at 25:9-33",
+            "CommonJS bailout: exports.isValueAdvanced(...) prevents optimization as exports is passed as call context at 25:51-74"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/dynamic",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "external \"fs\"",
+          "name": "external \"fs\"",
+          "nameForCondition": null,
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "issuerName": "./sample/main/displayHtml.ts",
+          "issuerPath": [
+            {
+              "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "name": "./sample/main/displayHtml.ts",
+              "id": "./sample/main/displayHtml.ts"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "fs",
+          "issuerId": "./sample/main/displayHtml.ts",
+          "chunks": [
+            "dist/displayhtml"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "module": "./sample/main/displayHtml.ts",
+              "moduleName": "./sample/main/displayHtml.ts",
+              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "resolvedModule": "./sample/main/displayHtml.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "fs",
+              "loc": "9:27-40",
+              "moduleId": "./sample/main/displayHtml.ts",
+              "resolvedModuleId": "./sample/main/displayHtml.ts"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/dynamic",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "external \"http\"",
+          "name": "external \"http\"",
+          "nameForCondition": null,
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "issuerName": "./sample/main/displayHtml.ts",
+          "issuerPath": [
+            {
+              "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "name": "./sample/main/displayHtml.ts",
+              "id": "./sample/main/displayHtml.ts"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "http",
+          "issuerId": "./sample/main/displayHtml.ts",
+          "chunks": [
+            "dist/displayhtml"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "module": "./sample/main/displayHtml.ts",
+              "moduleName": "./sample/main/displayHtml.ts",
+              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "resolvedModule": "./sample/main/displayHtml.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "http",
+              "loc": "8:29-44",
+              "moduleId": "./sample/main/displayHtml.ts",
+              "resolvedModuleId": "./sample/main/displayHtml.ts"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 123,
+          "sizes": {
+            "runtime": 123
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/node module decorator",
+          "name": "webpack/runtime/node module decorator",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "dist/displayhtml"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "dist/displayhtml",
+          "request": "/opt/workspace/sample/main/displayHtml.ts"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1914,
+      "sizes": {
+        "javascript": 1914
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+      "name": "./sample/main/displayHtml.ts",
+      "nameForCondition": "/opt/workspace/sample/main/displayHtml.ts",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./sample/main/displayHtml.ts",
+      "issuerId": null,
+      "chunks": [
+        "dist/displayhtml"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "module": "./sample/main/displayHtml.ts",
+          "moduleName": "./sample/main/displayHtml.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "resolvedModule": "./sample/main/displayHtml.ts",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "2:23-27",
+          "moduleId": "./sample/main/displayHtml.ts",
+          "resolvedModuleId": "./sample/main/displayHtml.ts"
+        },
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "module": "./sample/main/displayHtml.ts",
+          "moduleName": "./sample/main/displayHtml.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "resolvedModule": "./sample/main/displayHtml.ts",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "2:31-51",
+          "moduleId": "./sample/main/displayHtml.ts",
+          "resolvedModuleId": "./sample/main/displayHtml.ts"
+        },
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "module": "./sample/main/displayHtml.ts",
+          "moduleName": "./sample/main/displayHtml.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "resolvedModule": "./sample/main/displayHtml.ts",
+          "type": "module decorator",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "44:21-27",
+          "moduleId": "./sample/main/displayHtml.ts",
+          "resolvedModuleId": "./sample/main/displayHtml.ts"
+        },
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "module": "./sample/main/displayHtml.ts",
+          "moduleName": "./sample/main/displayHtml.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "resolvedModule": "./sample/main/displayHtml.ts",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "45:4-27",
+          "moduleId": "./sample/main/displayHtml.ts",
+          "resolvedModuleId": "./sample/main/displayHtml.ts"
+        },
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "module": "./sample/main/displayHtml.ts",
+          "moduleName": "./sample/main/displayHtml.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "resolvedModule": "./sample/main/displayHtml.ts",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "46:22-49",
+          "moduleId": "./sample/main/displayHtml.ts",
+          "resolvedModuleId": "./sample/main/displayHtml.ts"
+        },
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "/opt/workspace/sample/main/displayHtml.ts",
+          "loc": "dist/displayhtml",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 8719,
+      "sizes": {
+        "javascript": 8719
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+      "name": "./src/tscliparser.ts",
+      "nameForCondition": "/opt/workspace/src/tscliparser.ts",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+      "issuerName": "./sample/main/displayHtml.ts",
+      "issuerPath": [
+        {
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "name": "./sample/main/displayHtml.ts",
+          "id": "./sample/main/displayHtml.ts"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/tscliparser.ts",
+      "issuerId": "./sample/main/displayHtml.ts",
+      "chunks": [
+        "dist/displayhtml"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "module": "./sample/main/displayHtml.ts",
+          "moduleName": "./sample/main/displayHtml.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "resolvedModule": "./sample/main/displayHtml.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "~~/src/tscliparser",
+          "loc": "7:20-49",
+          "moduleId": "./sample/main/displayHtml.ts",
+          "resolvedModuleId": "./sample/main/displayHtml.ts"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "CliParser",
+        "__esModule"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/dynamic",
+      "layer": null,
+      "size": 42,
+      "sizes": {
+        "javascript": 42
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "external \"http\"",
+      "name": "external \"http\"",
+      "nameForCondition": null,
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+      "issuerName": "./sample/main/displayHtml.ts",
+      "issuerPath": [
+        {
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "name": "./sample/main/displayHtml.ts",
+          "id": "./sample/main/displayHtml.ts"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "http",
+      "issuerId": "./sample/main/displayHtml.ts",
+      "chunks": [
+        "dist/displayhtml"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "module": "./sample/main/displayHtml.ts",
+          "moduleName": "./sample/main/displayHtml.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "resolvedModule": "./sample/main/displayHtml.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "http",
+          "loc": "8:29-44",
+          "moduleId": "./sample/main/displayHtml.ts",
+          "resolvedModuleId": "./sample/main/displayHtml.ts"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/dynamic",
+      "layer": null,
+      "size": 42,
+      "sizes": {
+        "javascript": 42
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "external \"fs\"",
+      "name": "external \"fs\"",
+      "nameForCondition": null,
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+      "issuerName": "./sample/main/displayHtml.ts",
+      "issuerPath": [
+        {
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "name": "./sample/main/displayHtml.ts",
+          "id": "./sample/main/displayHtml.ts"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "fs",
+      "issuerId": "./sample/main/displayHtml.ts",
+      "chunks": [
+        "dist/displayhtml"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "module": "./sample/main/displayHtml.ts",
+          "moduleName": "./sample/main/displayHtml.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "resolvedModule": "./sample/main/displayHtml.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "fs",
+          "loc": "9:27-40",
+          "moduleId": "./sample/main/displayHtml.ts",
+          "resolvedModuleId": "./sample/main/displayHtml.ts"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 984,
+      "sizes": {
+        "javascript": 984
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/types/typesTsCliParser.ts",
+      "name": "./src/types/typesTsCliParser.ts",
+      "nameForCondition": "/opt/workspace/src/types/typesTsCliParser.ts",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+      "issuerName": "./src/tscliparser.ts",
+      "issuerPath": [
+        {
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "name": "./sample/main/displayHtml.ts",
+          "id": "./sample/main/displayHtml.ts"
+        },
+        {
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+          "name": "./src/tscliparser.ts",
+          "id": "./src/tscliparser.ts"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/types/typesTsCliParser.ts",
+      "issuerId": "./src/tscliparser.ts",
+      "chunks": [
+        "dist/displayhtml"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+          "module": "./src/tscliparser.ts",
+          "moduleName": "./src/tscliparser.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+          "resolvedModule": "./src/tscliparser.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "~/types/typesTsCliParser",
+          "loc": "4:25-60",
+          "moduleId": "./src/tscliparser.ts",
+          "resolvedModuleId": "./src/tscliparser.ts"
+        },
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/types/typesTsCliParser.ts",
+          "module": "./src/types/typesTsCliParser.ts",
+          "moduleName": "./src/types/typesTsCliParser.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/types/typesTsCliParser.ts",
+          "resolvedModule": "./src/types/typesTsCliParser.ts",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "25:9-33",
+          "moduleId": "./src/types/typesTsCliParser.ts",
+          "resolvedModuleId": "./src/types/typesTsCliParser.ts"
+        },
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/types/typesTsCliParser.ts",
+          "module": "./src/types/typesTsCliParser.ts",
+          "moduleName": "./src/types/typesTsCliParser.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/types/typesTsCliParser.ts",
+          "resolvedModule": "./src/types/typesTsCliParser.ts",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "25:51-74",
+          "moduleId": "./src/types/typesTsCliParser.ts",
+          "resolvedModuleId": "./src/types/typesTsCliParser.ts"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "__esModule",
+        "isCommonOption",
+        "isHelpOption",
+        "isOptionAdvanced",
+        "isValueAdvanced"
+      ],
+      "optimizationBailout": [
+        "CommonJS bailout: exports.isOptionAdvanced(...) prevents optimization as exports is passed as call context at 25:9-33",
+        "CommonJS bailout: exports.isValueAdvanced(...) prevents optimization as exports is passed as call context at 25:51-74"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1700,
+      "sizes": {
+        "javascript": 1700
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/errhandle/errorsTsCliParser.ts",
+      "name": "./src/errhandle/errorsTsCliParser.ts",
+      "nameForCondition": "/opt/workspace/src/errhandle/errorsTsCliParser.ts",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+      "issuerName": "./src/tscliparser.ts",
+      "issuerPath": [
+        {
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "name": "./sample/main/displayHtml.ts",
+          "id": "./sample/main/displayHtml.ts"
+        },
+        {
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+          "name": "./src/tscliparser.ts",
+          "id": "./src/tscliparser.ts"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/errhandle/errorsTsCliParser.ts",
+      "issuerId": "./src/tscliparser.ts",
+      "chunks": [
+        "dist/displayhtml"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/errhandle/errorsTsCliParser.ts",
+          "module": "./src/errhandle/errorsTsCliParser.ts",
+          "moduleName": "./src/errhandle/errorsTsCliParser.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/errhandle/errorsTsCliParser.ts",
+          "resolvedModule": "./src/errhandle/errorsTsCliParser.ts",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "2:17-21",
+          "moduleId": "./src/errhandle/errorsTsCliParser.ts",
+          "resolvedModuleId": "./src/errhandle/errorsTsCliParser.ts"
+        },
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/errhandle/errorsTsCliParser.ts",
+          "module": "./src/errhandle/errorsTsCliParser.ts",
+          "moduleName": "./src/errhandle/errorsTsCliParser.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/errhandle/errorsTsCliParser.ts",
+          "resolvedModule": "./src/errhandle/errorsTsCliParser.ts",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "2:25-39",
+          "moduleId": "./src/errhandle/errorsTsCliParser.ts",
+          "resolvedModuleId": "./src/errhandle/errorsTsCliParser.ts"
+        },
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+          "module": "./src/tscliparser.ts",
+          "moduleName": "./src/tscliparser.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+          "resolvedModule": "./src/tscliparser.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "~/errhandle/errorsTsCliParser",
+          "loc": "5:26-66",
+          "moduleId": "./src/tscliparser.ts",
+          "resolvedModuleId": "./src/tscliparser.ts"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:17-21"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 123,
+      "sizes": {
+        "runtime": 123
+      },
+      "built": false,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "webpack/runtime/node module decorator",
+      "name": "webpack/runtime/node module decorator",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        "dist/displayhtml"
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "dist/displayhtml": {
+      "name": "dist/displayhtml",
+      "chunks": [
+        "dist/displayhtml"
+      ],
+      "assets": [
+        {
+          "name": "dist/displayhtml_dev.js",
+          "size": 58638
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 58638,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "dist/displayhtml": {
+      "name": "dist/displayhtml",
+      "chunks": [
+        "dist/displayhtml"
+      ],
+      "assets": [
+        {
+          "name": "dist/displayhtml_dev.js",
+          "size": 58638
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 58638,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [
+    {
+      "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+      "moduleName": "./sample/main/displayHtml.ts",
+      "message": "Module Error (from ./node_modules/eslint-loader/dist/cjs.js):\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[4m/opt/workspace/sample/main/displayHtml.ts\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m0:0\u001b[22m  \u001b[31merror\u001b[39m  Parsing error: \"parserOptions.project\" has been set for @typescript-eslint/parser.\u001b[0m\n\u001b[0mThe file does not match your project config: sample/main/displayHtml.ts.\u001b[0m\n\u001b[0mThe file must be included in at least one of the projects provided\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m✖ 1 problem (1 error, 0 warnings)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m\u001b[22m\u001b[39m\u001b[0m",
+      "moduleId": "./sample/main/displayHtml.ts",
+      "moduleTrace": [],
+      "stack": "ModuleError: Module Error (from ./node_modules/eslint-loader/dist/cjs.js):\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[4m/opt/workspace/sample/main/displayHtml.ts\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m0:0\u001b[22m  \u001b[31merror\u001b[39m  Parsing error: \"parserOptions.project\" has been set for @typescript-eslint/parser.\u001b[0m\n\u001b[0mThe file does not match your project config: sample/main/displayHtml.ts.\u001b[0m\n\u001b[0mThe file must be included in at least one of the projects provided\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m✖ 1 problem (1 error, 0 warnings)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m\u001b[22m\u001b[39m\u001b[0m\n    at emitError (/opt/workspace/node_modules/webpack/lib/NormalModule.js:525:6)\n    at Linter.printOutput (/opt/workspace/node_modules/eslint-loader/dist/Linter.js:95:5)\n    at Object.loader (/opt/workspace/node_modules/eslint-loader/dist/index.js:26:10)\n    at LOADER_EXECUTION (/opt/workspace/node_modules/loader-runner/lib/LoaderRunner.js:132:14)\n    at runSyncOrAsync (/opt/workspace/node_modules/loader-runner/lib/LoaderRunner.js:133:4)\n    at iterateNormalLoaders (/opt/workspace/node_modules/loader-runner/lib/LoaderRunner.js:250:2)\n    at Array.<anonymous> (/opt/workspace/node_modules/loader-runner/lib/LoaderRunner.js:223:4)\n    at runCallbacks (/opt/workspace/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)\n    at /opt/workspace/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:200:4\n    at /opt/workspace/node_modules/graceful-fs/graceful-fs.js:123:16"
+    }
+  ],
+  "errorsCount": 1,
+  "warnings": [
+    {
+      "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/types/typesTsCliParser.ts",
+      "moduleName": "./src/types/typesTsCliParser.ts",
+      "message": "Module Warning (from ./node_modules/eslint-loader/dist/cjs.js):\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[4m/opt/workspace/src/types/typesTsCliParser.ts\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m13:34\u001b[22m  \u001b[33mwarning\u001b[39m  Argument 'arg' should be typed with a non-any type  \u001b[2m@typescript-eslint/explicit-module-boundary-types\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m13:39\u001b[22m  \u001b[33mwarning\u001b[39m  Unexpected any. Specify a different type            \u001b[2m@typescript-eslint/no-explicit-any\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m24:33\u001b[22m  \u001b[33mwarning\u001b[39m  Argument 'arg' should be typed with a non-any type  \u001b[2m@typescript-eslint/explicit-module-boundary-types\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m24:38\u001b[22m  \u001b[33mwarning\u001b[39m  Unexpected any. Specify a different type            \u001b[2m@typescript-eslint/no-explicit-any\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m35:30\u001b[22m  \u001b[33mwarning\u001b[39m  Argument 'arg' should be typed with a non-any type  \u001b[2m@typescript-eslint/explicit-module-boundary-types\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m35:35\u001b[22m  \u001b[33mwarning\u001b[39m  Unexpected any. Specify a different type            \u001b[2m@typescript-eslint/no-explicit-any\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m50:32\u001b[22m  \u001b[33mwarning\u001b[39m  Argument 'arg' should be typed with a non-any type  \u001b[2m@typescript-eslint/explicit-module-boundary-types\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m50:37\u001b[22m  \u001b[33mwarning\u001b[39m  Unexpected any. Specify a different type            \u001b[2m@typescript-eslint/no-explicit-any\u001b[22m\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m✖ 8 problems (0 errors, 8 warnings)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m\u001b[22m\u001b[39m\u001b[0m",
+      "moduleId": "./src/types/typesTsCliParser.ts",
+      "moduleTrace": [
+        {
+          "originIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+          "originName": "./src/tscliparser.ts",
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/types/typesTsCliParser.ts",
+          "moduleName": "./src/types/typesTsCliParser.ts",
+          "dependencies": [
+            {
+              "loc": "4:25-60"
+            }
+          ],
+          "originId": "./src/tscliparser.ts",
+          "moduleId": "./src/types/typesTsCliParser.ts"
+        },
+        {
+          "originIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "originName": "./sample/main/displayHtml.ts",
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/src/tscliparser.ts",
+          "moduleName": "./src/tscliparser.ts",
+          "dependencies": [
+            {
+              "loc": "7:20-49"
+            }
+          ],
+          "originId": "./sample/main/displayHtml.ts",
+          "moduleId": "./src/tscliparser.ts"
+        }
+      ],
+      "stack": "ModuleWarning: Module Warning (from ./node_modules/eslint-loader/dist/cjs.js):\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[4m/opt/workspace/src/types/typesTsCliParser.ts\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m13:34\u001b[22m  \u001b[33mwarning\u001b[39m  Argument 'arg' should be typed with a non-any type  \u001b[2m@typescript-eslint/explicit-module-boundary-types\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m13:39\u001b[22m  \u001b[33mwarning\u001b[39m  Unexpected any. Specify a different type            \u001b[2m@typescript-eslint/no-explicit-any\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m24:33\u001b[22m  \u001b[33mwarning\u001b[39m  Argument 'arg' should be typed with a non-any type  \u001b[2m@typescript-eslint/explicit-module-boundary-types\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m24:38\u001b[22m  \u001b[33mwarning\u001b[39m  Unexpected any. Specify a different type            \u001b[2m@typescript-eslint/no-explicit-any\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m35:30\u001b[22m  \u001b[33mwarning\u001b[39m  Argument 'arg' should be typed with a non-any type  \u001b[2m@typescript-eslint/explicit-module-boundary-types\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m35:35\u001b[22m  \u001b[33mwarning\u001b[39m  Unexpected any. Specify a different type            \u001b[2m@typescript-eslint/no-explicit-any\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m50:32\u001b[22m  \u001b[33mwarning\u001b[39m  Argument 'arg' should be typed with a non-any type  \u001b[2m@typescript-eslint/explicit-module-boundary-types\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m50:37\u001b[22m  \u001b[33mwarning\u001b[39m  Unexpected any. Specify a different type            \u001b[2m@typescript-eslint/no-explicit-any\u001b[22m\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m✖ 8 problems (0 errors, 8 warnings)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m\u001b[22m\u001b[39m\u001b[0m\n    at emitWarning (/opt/workspace/node_modules/webpack/lib/NormalModule.js:515:6)\n    at Linter.printOutput (/opt/workspace/node_modules/eslint-loader/dist/Linter.js:95:5)\n    at Object.loader (/opt/workspace/node_modules/eslint-loader/dist/index.js:26:10)\n    at LOADER_EXECUTION (/opt/workspace/node_modules/loader-runner/lib/LoaderRunner.js:132:14)\n    at runSyncOrAsync (/opt/workspace/node_modules/loader-runner/lib/LoaderRunner.js:133:4)\n    at iterateNormalLoaders (/opt/workspace/node_modules/loader-runner/lib/LoaderRunner.js:250:2)\n    at Array.<anonymous> (/opt/workspace/node_modules/loader-runner/lib/LoaderRunner.js:223:4)\n    at runCallbacks (/opt/workspace/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:27:15)\n    at /opt/workspace/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:200:4\n    at /opt/workspace/node_modules/graceful-fs/graceful-fs.js:123:16"
+    }
+  ],
+  "warningsCount": 1,
+  "children": []
+}
