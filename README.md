@@ -1,4 +1,4 @@
-# tsCliParser
+# tscliparser
 CLI Parser library in TypeScript.
 
 ## Get Started
