@@ -1,18 +1,18 @@
 {
   "name": "tscliparser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require ts-node/register --require tsconfig-paths/register --watch-extensions ts \"./**/src/test/**/*.test.ts\"",
+    "test": "mocha --require ts-node/register --require tsconfig-paths/register --watch-extensions ts \"./sample/test/**/*.test.ts\"",
     "onetest": "mocha --require ts-node/register --require tsconfig-paths/register --watch-extensions ts",
     "dev@webpack": "webpack --config webpack.dev.js",
     "build@webpack": "webpack --config webpack.prod.js",
     "tsc": "tsc",
     "watch": "webpack -w --config webpack.dev.js",
-    "lint": "eslint './**/src/**/*.{ts,tsx}'",
+    "lint": "eslint './**/*.ts'",
     "onefix": "eslint --fix",
-    "analyze": "webpack-bundle-analyzer --host 0.0.0.0 --port 8765 ./webpack_build/stats/stats.json",
+    "analyze": "webpack-bundle-analyzer --host 0.0.0.0 --port 8765 ./dist/stats/stats.json",
     "prepare": "tsc",
     "build": "tsc"
   },

@@ -3,8 +3,8 @@ import {
     OptionAdvanced,
     ValueAdvanced,
     HelpOption,
-} from "~~/src/types/typesTsCliParser";
-import { CliParser } from "~~/src/tscliparser";
+} from "~~/tscliparser/types/typesTsCliParser";
+import { CliParser } from "~~/tscliparser/tscliparser";
 import http from "http";
 import fs from "fs";
 

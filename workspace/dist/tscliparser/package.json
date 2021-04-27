@@ -1,0 +1,25 @@
+{
+  "name": "tscliparser",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc"
+  },
+  "keywords": [
+    "cli",
+    "parser",
+    "cliparser",
+    "tscliparser",
+    "command"
+  ],
+  "author": "Goki Sugimura",
+  "homepage": "https://github.com/KagenoMoheji/tscliparser",
+  "bugs": {
+    "url": "https://github.com/KagenoMoheji/tscliparser/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

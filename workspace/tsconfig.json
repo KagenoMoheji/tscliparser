@@ -46,9 +46,9 @@
     // "moduleResolution": "node",                  /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
     "baseUrl": "./",                             /* Base directory to resolve non-absolute module names. */
     "paths": {
-      "~\/*": ["./src/*"],
+      "~\/*": ["./tscliparser/*"],
       "~~\/*": ["./*"],
-      "@\/*": ["./src/*"],
+      "@\/*": ["./tscliparser/*"],
       "@@\/*": ["./*"]
     },                                 /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */
     // "rootDirs": [],                              /* List of root folders whose combined content represents the structure of the project at runtime. */
@@ -77,7 +77,6 @@
     "./**/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    "./sample/**/*.ts" /* sampleディレクトリの開発をする際はここをコメントアウト．srcディレクトリのbuildする時はコメントアウト外す． */
+    "node_modules"
   ]
 }

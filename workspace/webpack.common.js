@@ -4,20 +4,22 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 module.exports = (isProd = false) => {
     return {
         entry: {
-            "dist/displayhtml": path.join(__dirname, "sample/main/displayHtml.ts"),
+            // tsconfig.jsonによる出力の際はソースのディレクトリ構造を維持してoutput[path]下に出力されるので，その構造に則って設定する必要あり．
+            "sample/main/displayhtml": path.join(__dirname, "sample/main/displayHtml.ts"),
+            "tscliparser/tscliparser": path.join(__dirname, "tscliparser/tscliparser.ts")
         },
         output: {
-            path: path.join(__dirname, "webpack_build"),
+            path: path.join(__dirname, "dist"), // tsconfig.jsonのoutDirに合わせる．
             filename: `[name]${(isProd ? "" : "_dev")}.js` // 開発用なら「_dev」が付く
         },
         target: "node", // 今回はBrowser用JSではなくクライアントNodeJSで動かすのでこれ使って"fs"の問題解消しても問題無さそう．
         resolve: {
             modules: ["node_modules"],
             extensions: [".js", ".ts"],
-            alias: { // importの絶対パス化に必要
-                "~": path.resolve(__dirname, "src"),
+            alias: { // importの絶対パス化に必要． // tsconfig.jsonのpathsに合わせる．
+                "~": path.resolve(__dirname, "tscliparser"),
                 "~~": path.resolve(__dirname, "."),
-                "@": path.resolve(__dirname, "src"),
+                "@": path.resolve(__dirname, "tscliparser"),
                 "@@": path.resolve(__dirname, ".")
             }
         },

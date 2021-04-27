@@ -2,7 +2,7 @@ import * as assert from "assert";
 import {
     CliDataType,
     CommonOption
-} from "~~/src/types/typesTsCliParser";
+} from "~~/tscliparser/types/typesTsCliParser";
 import {
     cliparser,
 } from "~~/sample/main/displayHtml";
