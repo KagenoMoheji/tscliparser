@@ -22,8 +22,8 @@ import {
     OptionAdvanced,
     ValueAdvanced,
     HelpOption,
-} from "~~/src/types/typesTsCliParser";
-import { CliParser } from "~~/src/tscliparser";
+} from "tscliparser/types/typesTsCliParser";
+import { CliParser } from "tscliparser/tscliparser";
 
 /*
 (2) Define CLI arguments with interface(extends CliParams).
@@ -115,7 +115,7 @@ import * as assert from "assert";
 import {
     CliDataType,
     CommonOption
-} from "~~/src/types/typesTsCliParser";
+} from "tscliparser/types/typesTsCliParser";
 import {
     cliparser,
 } from "~~/sample/main/displayHtml";
