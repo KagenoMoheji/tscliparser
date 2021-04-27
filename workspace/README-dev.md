@@ -23,9 +23,12 @@
         ]
     }
     ```
+    - `outDir`を指定しないと，`declaration: true`によって生成されることになった`d.ts`がソースディレクトリに出力されてしまう．
     - `declaration: true`になっていれば，`tsc`と`webpack`のいずれでトランスパイルしても，`d.ts`を作ることが可能．
-        - ただし`tsconfig.json[outDir]`に設定するディレクトリとソースディレクトリの構造に，`webpack.common.js`のentryとoutputを合わせる必要がある．
-3. `$ npm run build@webpack`して`dist/`下に`js`・`d.ts`ができることを確認．
+        - `tsconfig.json[outDir]`に設定するディレクトリとソースディレクトリの構造に，`webpack.common.js`のentryとoutputを合わせる必要がある．
+3. ~~`$ npm run npmpack@webpack`~~`$ npm run build`して`dist/`下に`js`・`d.ts`ができることを確認．
+    - `js`において`tsconfig.json[paths]`で指定しているRootからの絶対インポートを使用している場合，トランスパイル出力先における出力ファイルの相対インポートに書き換えておく．
+    - sampleディレクトリのトランスパイルは`$ npm run dev@webpack`で行う必要があり，使い分けに注意．
 4. `dist/tscliparser/`下のみを公開する場合，`dist/tscliparser/`下に`package.json`(最低限)と`README.md`をコピペする．
 5. `$ npm adduser`でログイン．
 6. `dist/tscliparser/package.json[version]`を最新にする．
