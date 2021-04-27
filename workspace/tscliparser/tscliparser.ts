@@ -8,11 +8,11 @@ import {
     isValueAdvanced,
     isHelpOption,
     CliParams,
-} from "~/types/typesTsCliParser";
+} from "~~/tscliparser/types/typesTsCliParser";
 import {
     CliParserConstructorError,
     CliParserArgError,
-} from "~/errhandle/errorsTsCliParser";
+} from "~~/tscliparser/errhandle/errorsTsCliParser";
 
 export class CliParser<T extends CliParams> {
     /**
