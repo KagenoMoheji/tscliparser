@@ -157,6 +157,21 @@ describe("test CLI displayHtml", () => {
 
 ```
 
+#### CLI error sample
+```
+root:/workspace# node dist/sample/main/displayHtml.js -a 3
+e: Not found argument from short argument 'a'.
+
+root:/workspace# node dist/sample/main/displayHtml.js --aaa
+e: CliParser cannot find argument 'aaa'.
+
+root:/workspace# node dist/sample/main/displayHtml.js -p 44a
+TypeError: Invalid type in argument 'port'(expected number, but string).
+
+root:/workspace# node dist/sample/main/displayHtml.js -h -t
+e: Detected danger in consecutive arguments 'host' and '-t'. If you want set strings start with '-', you should enclose the string with quotes(single or double).
+```
+
 
 ## License
 Copyright &copy; 2021 by KagenoMoheji. Released under the [MIT License](LICENSE).

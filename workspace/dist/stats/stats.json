@@ -1,16 +1,13 @@
 {
-  "hash": "138ef65e107e02f2ae5b",
+  "hash": "e545e9a178d6ea6d90e2",
   "version": "5.33.2",
-  "time": 17038,
-  "builtAt": 1619533369203,
+  "time": 17457,
+  "builtAt": 1619542727788,
   "publicPath": "",
   "outputPath": "/opt/workspace/dist",
   "assetsByChunkName": {
     "sample/main/displayhtml": [
       "sample/main/displayhtml.js"
-    ],
-    "tscliparser/tscliparser": [
-      "tscliparser/tscliparser.js"
     ]
   },
   "assets": [
@@ -34,33 +31,7 @@
       "auxiliaryChunkIdHints": [],
       "related": {},
       "chunks": [
-        436,
-        931
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "tscliparser/tscliparser.js",
-      "size": 5410,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "javascriptModule": false,
-        "minimized": true,
-        "size": 5410
-      },
-      "chunkNames": [
-        "tscliparser/tscliparser"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [
-        931
+        436
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
@@ -69,8 +40,8 @@
       "type": "asset",
       "name": "tscliparser/types/typesTsCliParser.d.ts",
       "size": 973,
-      "emitted": true,
-      "comparedForEmit": false,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "size": 973
@@ -88,8 +59,8 @@
       "type": "asset",
       "name": "sample/main/displayHtml.d.ts",
       "size": 658,
-      "emitted": true,
-      "comparedForEmit": false,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "size": 658
@@ -107,8 +78,8 @@
       "type": "asset",
       "name": "tscliparser/tscliparser.d.ts",
       "size": 492,
-      "emitted": true,
-      "comparedForEmit": false,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "size": 492
@@ -126,8 +97,8 @@
       "type": "asset",
       "name": "tscliparser/errhandle/errorsTsCliParser.d.ts",
       "size": 180,
-      "emitted": true,
-      "comparedForEmit": false,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "size": 180
@@ -145,8 +116,8 @@
       "type": "asset",
       "name": "sample/test/displayHtml.test.d.ts",
       "size": 11,
-      "emitted": true,
-      "comparedForEmit": false,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "size": 11
@@ -183,7 +154,7 @@
         "sample/main/displayhtml.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "d39eaeefd2f1f302c995",
+      "hash": "96d6110d1d035f5923a0",
       "childrenByOrder": {},
       "id": 436,
       "siblings": [],
@@ -347,6 +318,11 @@
           "issuerName": "./tscliparser/tscliparser.ts",
           "issuerPath": [
             {
+              "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "name": "./sample/main/displayHtml.ts",
+              "id": 923
+            },
+            {
               "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
               "name": "./tscliparser/tscliparser.ts",
               "id": 457
@@ -358,8 +334,7 @@
           "id": 791,
           "issuerId": 457,
           "chunks": [
-            436,
-            931
+            436
           ],
           "assets": [],
           "reasons": [
@@ -413,7 +388,7 @@
             "Statement (VariableDeclaration) with side effects in source code at 2:0-16:5",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
-          "depth": 1
+          "depth": 2
         },
         {
           "type": "module",
@@ -438,17 +413,22 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": null,
-          "issuerName": null,
-          "issuerPath": null,
+          "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "issuerName": "./sample/main/displayHtml.ts",
+          "issuerPath": [
+            {
+              "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "name": "./sample/main/displayHtml.ts",
+              "id": 923
+            }
+          ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 457,
-          "issuerId": null,
+          "issuerId": 923,
           "chunks": [
-            436,
-            931
+            436
           ],
           "assets": [],
           "reasons": [
@@ -465,20 +445,6 @@
               "loc": "7:20-57",
               "moduleId": 923,
               "resolvedModuleId": 923
-            },
-            {
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "resolvedModuleIdentifier": null,
-              "resolvedModule": null,
-              "type": "entry",
-              "active": true,
-              "explanation": "",
-              "userRequest": "/opt/workspace/tscliparser/tscliparser.ts",
-              "loc": "tscliparser/tscliparser",
-              "moduleId": null,
-              "resolvedModuleId": null
             }
           ],
           "usedExports": true,
@@ -490,7 +456,7 @@
             "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
-          "depth": 0
+          "depth": 1
         },
         {
           "type": "module",
@@ -519,6 +485,11 @@
           "issuerName": "./tscliparser/tscliparser.ts",
           "issuerPath": [
             {
+              "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+              "name": "./sample/main/displayHtml.ts",
+              "id": 923
+            },
+            {
               "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
               "name": "./tscliparser/tscliparser.ts",
               "id": 457
@@ -530,8 +501,7 @@
           "id": 970,
           "issuerId": 457,
           "chunks": [
-            436,
-            931
+            436
           ],
           "assets": [],
           "reasons": [
@@ -592,7 +562,7 @@
             "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
-          "depth": 1
+          "depth": 2
         },
         {
           "type": "module",
@@ -766,318 +736,6 @@
           "request": "/opt/workspace/sample/main/displayHtml.ts"
         }
       ]
-    },
-    {
-      "rendered": true,
-      "initial": true,
-      "entry": true,
-      "recorded": false,
-      "size": 11429,
-      "sizes": {
-        "javascript": 11429
-      },
-      "names": [
-        "tscliparser/tscliparser"
-      ],
-      "idHints": [],
-      "runtime": [
-        "tscliparser/tscliparser"
-      ],
-      "files": [
-        "tscliparser/tscliparser.js"
-      ],
-      "auxiliaryFiles": [],
-      "hash": "e9de5b052ce35089b04f",
-      "childrenByOrder": {},
-      "id": 931,
-      "siblings": [],
-      "parents": [],
-      "children": [],
-      "modules": [
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 1700,
-          "sizes": {
-            "javascript": 1700
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
-          "name": "./tscliparser/errhandle/errorsTsCliParser.ts",
-          "nameForCondition": "/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
-          "index": 3,
-          "preOrderIndex": 3,
-          "index2": 1,
-          "postOrderIndex": 1,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-          "issuerName": "./tscliparser/tscliparser.ts",
-          "issuerPath": [
-            {
-              "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-              "name": "./tscliparser/tscliparser.ts",
-              "id": 457
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 791,
-          "issuerId": 457,
-          "chunks": [
-            436,
-            931
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
-              "module": "./tscliparser/errhandle/errorsTsCliParser.ts",
-              "moduleName": "./tscliparser/errhandle/errorsTsCliParser.ts",
-              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
-              "resolvedModule": "./tscliparser/errhandle/errorsTsCliParser.ts",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "2:17-21",
-              "moduleId": 791,
-              "resolvedModuleId": 791
-            },
-            {
-              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
-              "module": "./tscliparser/errhandle/errorsTsCliParser.ts",
-              "moduleName": "./tscliparser/errhandle/errorsTsCliParser.ts",
-              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
-              "resolvedModule": "./tscliparser/errhandle/errorsTsCliParser.ts",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "2:25-39",
-              "moduleId": 791,
-              "resolvedModuleId": 791
-            },
-            {
-              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-              "module": "./tscliparser/tscliparser.ts",
-              "moduleName": "./tscliparser/tscliparser.ts",
-              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-              "resolvedModule": "./tscliparser/tscliparser.ts",
-              "type": "cjs require",
-              "active": true,
-              "explanation": "",
-              "userRequest": "~~/tscliparser/errhandle/errorsTsCliParser",
-              "loc": "5:26-79",
-              "moduleId": 457,
-              "resolvedModuleId": 457
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: this is used directly at 2:17-21",
-            "Statement (VariableDeclaration) with side effects in source code at 2:0-16:5",
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 1
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 8745,
-          "sizes": {
-            "javascript": 8745
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-          "name": "./tscliparser/tscliparser.ts",
-          "nameForCondition": "/opt/workspace/tscliparser/tscliparser.ts",
-          "index": 1,
-          "preOrderIndex": 1,
-          "index2": 2,
-          "postOrderIndex": 2,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "issuer": null,
-          "issuerName": null,
-          "issuerPath": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 457,
-          "issuerId": null,
-          "chunks": [
-            436,
-            931
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
-              "module": "./sample/main/displayHtml.ts",
-              "moduleName": "./sample/main/displayHtml.ts",
-              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
-              "resolvedModule": "./sample/main/displayHtml.ts",
-              "type": "cjs require",
-              "active": true,
-              "explanation": "",
-              "userRequest": "~~/tscliparser/tscliparser",
-              "loc": "7:20-57",
-              "moduleId": 923,
-              "resolvedModuleId": 923
-            },
-            {
-              "moduleIdentifier": null,
-              "module": null,
-              "moduleName": null,
-              "resolvedModuleIdentifier": null,
-              "resolvedModule": null,
-              "type": "entry",
-              "active": true,
-              "explanation": "",
-              "userRequest": "/opt/workspace/tscliparser/tscliparser.ts",
-              "loc": "tscliparser/tscliparser",
-              "moduleId": null,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": [],
-          "providedExports": [
-            "CliParser",
-            "__esModule"
-          ],
-          "optimizationBailout": [
-            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 0
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 984,
-          "sizes": {
-            "javascript": 984
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
-          "name": "./tscliparser/types/typesTsCliParser.ts",
-          "nameForCondition": "/opt/workspace/tscliparser/types/typesTsCliParser.ts",
-          "index": 2,
-          "preOrderIndex": 2,
-          "index2": 0,
-          "postOrderIndex": 0,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-          "issuerName": "./tscliparser/tscliparser.ts",
-          "issuerPath": [
-            {
-              "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-              "name": "./tscliparser/tscliparser.ts",
-              "id": 457
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 970,
-          "issuerId": 457,
-          "chunks": [
-            436,
-            931
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-              "module": "./tscliparser/tscliparser.ts",
-              "moduleName": "./tscliparser/tscliparser.ts",
-              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-              "resolvedModule": "./tscliparser/tscliparser.ts",
-              "type": "cjs require",
-              "active": true,
-              "explanation": "",
-              "userRequest": "~~/tscliparser/types/typesTsCliParser",
-              "loc": "4:25-73",
-              "moduleId": 457,
-              "resolvedModuleId": 457
-            },
-            {
-              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
-              "module": "./tscliparser/types/typesTsCliParser.ts",
-              "moduleName": "./tscliparser/types/typesTsCliParser.ts",
-              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
-              "resolvedModule": "./tscliparser/types/typesTsCliParser.ts",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "25:9-33",
-              "moduleId": 970,
-              "resolvedModuleId": 970
-            },
-            {
-              "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
-              "module": "./tscliparser/types/typesTsCliParser.ts",
-              "moduleName": "./tscliparser/types/typesTsCliParser.ts",
-              "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
-              "resolvedModule": "./tscliparser/types/typesTsCliParser.ts",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "25:51-74",
-              "moduleId": 970,
-              "resolvedModuleId": 970
-            }
-          ],
-          "usedExports": true,
-          "providedExports": [
-            "__esModule",
-            "isCommonOption",
-            "isHelpOption",
-            "isOptionAdvanced",
-            "isValueAdvanced"
-          ],
-          "optimizationBailout": [
-            "CommonJS bailout: exports.isOptionAdvanced(...) prevents optimization as exports is passed as call context at 25:9-33",
-            "CommonJS bailout: exports.isValueAdvanced(...) prevents optimization as exports is passed as call context at 25:51-74",
-            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 1
-        }
-      ],
-      "origins": [
-        {
-          "module": "",
-          "moduleIdentifier": "",
-          "moduleName": "",
-          "loc": "tscliparser/tscliparser",
-          "request": "/opt/workspace/tscliparser/tscliparser.ts"
-        }
-      ]
     }
   ],
   "modules": [
@@ -1232,17 +890,22 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": null,
-      "issuerName": null,
-      "issuerPath": null,
+      "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+      "issuerName": "./sample/main/displayHtml.ts",
+      "issuerPath": [
+        {
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "name": "./sample/main/displayHtml.ts",
+          "id": 923
+        }
+      ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 457,
-      "issuerId": null,
+      "issuerId": 923,
       "chunks": [
-        436,
-        931
+        436
       ],
       "assets": [],
       "reasons": [
@@ -1259,20 +922,6 @@
           "loc": "7:20-57",
           "moduleId": 923,
           "resolvedModuleId": 923
-        },
-        {
-          "moduleIdentifier": null,
-          "module": null,
-          "moduleName": null,
-          "resolvedModuleIdentifier": null,
-          "resolvedModule": null,
-          "type": "entry",
-          "active": true,
-          "explanation": "",
-          "userRequest": "/opt/workspace/tscliparser/tscliparser.ts",
-          "loc": "tscliparser/tscliparser",
-          "moduleId": null,
-          "resolvedModuleId": null
         }
       ],
       "usedExports": true,
@@ -1282,201 +931,6 @@
       ],
       "optimizationBailout": [
         "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
-      ],
-      "depth": 0
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 984,
-      "sizes": {
-        "javascript": 984
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
-      "name": "./tscliparser/types/typesTsCliParser.ts",
-      "nameForCondition": "/opt/workspace/tscliparser/types/typesTsCliParser.ts",
-      "index": 2,
-      "preOrderIndex": 2,
-      "index2": 0,
-      "postOrderIndex": 0,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-      "issuerName": "./tscliparser/tscliparser.ts",
-      "issuerPath": [
-        {
-          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-          "name": "./tscliparser/tscliparser.ts",
-          "id": 457
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": 970,
-      "issuerId": 457,
-      "chunks": [
-        436,
-        931
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-          "module": "./tscliparser/tscliparser.ts",
-          "moduleName": "./tscliparser/tscliparser.ts",
-          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-          "resolvedModule": "./tscliparser/tscliparser.ts",
-          "type": "cjs require",
-          "active": true,
-          "explanation": "",
-          "userRequest": "~~/tscliparser/types/typesTsCliParser",
-          "loc": "4:25-73",
-          "moduleId": 457,
-          "resolvedModuleId": 457
-        },
-        {
-          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
-          "module": "./tscliparser/types/typesTsCliParser.ts",
-          "moduleName": "./tscliparser/types/typesTsCliParser.ts",
-          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
-          "resolvedModule": "./tscliparser/types/typesTsCliParser.ts",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "25:9-33",
-          "moduleId": 970,
-          "resolvedModuleId": 970
-        },
-        {
-          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
-          "module": "./tscliparser/types/typesTsCliParser.ts",
-          "moduleName": "./tscliparser/types/typesTsCliParser.ts",
-          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
-          "resolvedModule": "./tscliparser/types/typesTsCliParser.ts",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "25:51-74",
-          "moduleId": 970,
-          "resolvedModuleId": 970
-        }
-      ],
-      "usedExports": true,
-      "providedExports": [
-        "__esModule",
-        "isCommonOption",
-        "isHelpOption",
-        "isOptionAdvanced",
-        "isValueAdvanced"
-      ],
-      "optimizationBailout": [
-        "CommonJS bailout: exports.isOptionAdvanced(...) prevents optimization as exports is passed as call context at 25:9-33",
-        "CommonJS bailout: exports.isValueAdvanced(...) prevents optimization as exports is passed as call context at 25:51-74",
-        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
-      ],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 1700,
-      "sizes": {
-        "javascript": 1700
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
-      "name": "./tscliparser/errhandle/errorsTsCliParser.ts",
-      "nameForCondition": "/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
-      "index": 3,
-      "preOrderIndex": 3,
-      "index2": 1,
-      "postOrderIndex": 1,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-      "issuerName": "./tscliparser/tscliparser.ts",
-      "issuerPath": [
-        {
-          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-          "name": "./tscliparser/tscliparser.ts",
-          "id": 457
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": 791,
-      "issuerId": 457,
-      "chunks": [
-        436,
-        931
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
-          "module": "./tscliparser/errhandle/errorsTsCliParser.ts",
-          "moduleName": "./tscliparser/errhandle/errorsTsCliParser.ts",
-          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
-          "resolvedModule": "./tscliparser/errhandle/errorsTsCliParser.ts",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "2:17-21",
-          "moduleId": 791,
-          "resolvedModuleId": 791
-        },
-        {
-          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
-          "module": "./tscliparser/errhandle/errorsTsCliParser.ts",
-          "moduleName": "./tscliparser/errhandle/errorsTsCliParser.ts",
-          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
-          "resolvedModule": "./tscliparser/errhandle/errorsTsCliParser.ts",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "2:25-39",
-          "moduleId": 791,
-          "resolvedModuleId": 791
-        },
-        {
-          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-          "module": "./tscliparser/tscliparser.ts",
-          "moduleName": "./tscliparser/tscliparser.ts",
-          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
-          "resolvedModule": "./tscliparser/tscliparser.ts",
-          "type": "cjs require",
-          "active": true,
-          "explanation": "",
-          "userRequest": "~~/tscliparser/errhandle/errorsTsCliParser",
-          "loc": "5:26-79",
-          "moduleId": 457,
-          "resolvedModuleId": 457
-        }
-      ],
-      "usedExports": null,
-      "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: this is used directly at 2:17-21",
-        "Statement (VariableDeclaration) with side effects in source code at 2:0-16:5",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 1
@@ -1607,6 +1061,209 @@
     },
     {
       "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 984,
+      "sizes": {
+        "javascript": 984
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
+      "name": "./tscliparser/types/typesTsCliParser.ts",
+      "nameForCondition": "/opt/workspace/tscliparser/types/typesTsCliParser.ts",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
+      "issuerName": "./tscliparser/tscliparser.ts",
+      "issuerPath": [
+        {
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "name": "./sample/main/displayHtml.ts",
+          "id": 923
+        },
+        {
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
+          "name": "./tscliparser/tscliparser.ts",
+          "id": 457
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 970,
+      "issuerId": 457,
+      "chunks": [
+        436
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
+          "module": "./tscliparser/tscliparser.ts",
+          "moduleName": "./tscliparser/tscliparser.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
+          "resolvedModule": "./tscliparser/tscliparser.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "~~/tscliparser/types/typesTsCliParser",
+          "loc": "4:25-73",
+          "moduleId": 457,
+          "resolvedModuleId": 457
+        },
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
+          "module": "./tscliparser/types/typesTsCliParser.ts",
+          "moduleName": "./tscliparser/types/typesTsCliParser.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
+          "resolvedModule": "./tscliparser/types/typesTsCliParser.ts",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "25:9-33",
+          "moduleId": 970,
+          "resolvedModuleId": 970
+        },
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
+          "module": "./tscliparser/types/typesTsCliParser.ts",
+          "moduleName": "./tscliparser/types/typesTsCliParser.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/types/typesTsCliParser.ts",
+          "resolvedModule": "./tscliparser/types/typesTsCliParser.ts",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "25:51-74",
+          "moduleId": 970,
+          "resolvedModuleId": 970
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "__esModule",
+        "isCommonOption",
+        "isHelpOption",
+        "isOptionAdvanced",
+        "isValueAdvanced"
+      ],
+      "optimizationBailout": [
+        "CommonJS bailout: exports.isOptionAdvanced(...) prevents optimization as exports is passed as call context at 25:9-33",
+        "CommonJS bailout: exports.isValueAdvanced(...) prevents optimization as exports is passed as call context at 25:51-74",
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1700,
+      "sizes": {
+        "javascript": 1700
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
+      "name": "./tscliparser/errhandle/errorsTsCliParser.ts",
+      "nameForCondition": "/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
+      "issuerName": "./tscliparser/tscliparser.ts",
+      "issuerPath": [
+        {
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "name": "./sample/main/displayHtml.ts",
+          "id": 923
+        },
+        {
+          "identifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
+          "name": "./tscliparser/tscliparser.ts",
+          "id": 457
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 791,
+      "issuerId": 457,
+      "chunks": [
+        436
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
+          "module": "./tscliparser/errhandle/errorsTsCliParser.ts",
+          "moduleName": "./tscliparser/errhandle/errorsTsCliParser.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
+          "resolvedModule": "./tscliparser/errhandle/errorsTsCliParser.ts",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "2:17-21",
+          "moduleId": 791,
+          "resolvedModuleId": 791
+        },
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
+          "module": "./tscliparser/errhandle/errorsTsCliParser.ts",
+          "moduleName": "./tscliparser/errhandle/errorsTsCliParser.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/errhandle/errorsTsCliParser.ts",
+          "resolvedModule": "./tscliparser/errhandle/errorsTsCliParser.ts",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "2:25-39",
+          "moduleId": 791,
+          "resolvedModuleId": 791
+        },
+        {
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
+          "module": "./tscliparser/tscliparser.ts",
+          "moduleName": "./tscliparser/tscliparser.ts",
+          "resolvedModuleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
+          "resolvedModule": "./tscliparser/tscliparser.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "~~/tscliparser/errhandle/errorsTsCliParser",
+          "loc": "5:26-79",
+          "moduleId": 457,
+          "resolvedModuleId": 457
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:17-21",
+        "Statement (VariableDeclaration) with side effects in source code at 2:0-16:5",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
       "moduleType": "runtime",
       "layer": null,
       "size": 123,
@@ -1661,26 +1318,6 @@
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
-    },
-    "tscliparser/tscliparser": {
-      "name": "tscliparser/tscliparser",
-      "chunks": [
-        931
-      ],
-      "assets": [
-        {
-          "name": "tscliparser/tscliparser.js",
-          "size": 5410
-        }
-      ],
-      "filteredAssets": 0,
-      "assetsSize": 5410,
-      "auxiliaryAssets": [],
-      "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 0,
-      "children": {},
-      "childAssets": {},
-      "isOverSizeLimit": false
     }
   },
   "namedChunkGroups": {
@@ -1697,26 +1334,6 @@
       ],
       "filteredAssets": 0,
       "assetsSize": 6894,
-      "auxiliaryAssets": [],
-      "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 0,
-      "children": {},
-      "childAssets": {},
-      "isOverSizeLimit": false
-    },
-    "tscliparser/tscliparser": {
-      "name": "tscliparser/tscliparser",
-      "chunks": [
-        931
-      ],
-      "assets": [
-        {
-          "name": "tscliparser/tscliparser.js",
-          "size": 5410
-        }
-      ],
-      "filteredAssets": 0,
-      "assetsSize": 5410,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -1746,6 +1363,19 @@
           ],
           "originId": 457,
           "moduleId": 970
+        },
+        {
+          "originIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/sample/main/displayHtml.ts",
+          "originName": "./sample/main/displayHtml.ts",
+          "moduleIdentifier": "/opt/workspace/node_modules/ts-loader/index.js!/opt/workspace/node_modules/eslint-loader/dist/cjs.js!/opt/workspace/tscliparser/tscliparser.ts",
+          "moduleName": "./tscliparser/tscliparser.ts",
+          "dependencies": [
+            {
+              "loc": "7:20-57"
+            }
+          ],
+          "originId": 923,
+          "moduleId": 457
         }
       ],
       "stack": "ModuleWarning: Module Warning (from ./node_modules/eslint-loader/dist/cjs.js):\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[4m/opt/workspace/tscliparser/types/typesTsCliParser.ts\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m13:34\u001b[22m  \u001b[33mwarning\u001b[39m  Argument 'arg' should be typed with a non-any type  \u001b[2m@typescript-eslint/explicit-module-boundary-types\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m13:39\u001b[22m  \u001b[33mwarning\u001b[39m  Unexpected any. Specify a different type            \u001b[2m@typescript-eslint/no-explicit-any\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m24:33\u001b[22m  \u001b[33mwarning\u001b[39m  Argument 'arg' should be typed with a non-any type  \u001b[2m@typescript-eslint/explicit-module-boundary-types\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m24:38\u001b[22m  \u001b[33mwarning\u001b[39m  Unexpected any. Specify a different type            \u001b[2m@typescript-eslint/no-explicit-any\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m35:30\u001b[22m  \u001b[33mwarning\u001b[39m  Argument 'arg' should be typed with a non-any type  \u001b[2m@typescript-eslint/explicit-module-boundary-types\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m35:35\u001b[22m  \u001b[33mwarning\u001b[39m  Unexpected any. Specify a different type            \u001b[2m@typescript-eslint/no-explicit-any\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m50:32\u001b[22m  \u001b[33mwarning\u001b[39m  Argument 'arg' should be typed with a non-any type  \u001b[2m@typescript-eslint/explicit-module-boundary-types\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m50:37\u001b[22m  \u001b[33mwarning\u001b[39m  Unexpected any. Specify a different type            \u001b[2m@typescript-eslint/no-explicit-any\u001b[22m\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m✖ 8 problems (0 errors, 8 warnings)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[33m\u001b[1m\u001b[22m\u001b[39m\u001b[0m\n    at emitWarning (/opt/workspace/node_modules/webpack/lib/NormalModule.js:515:6)\n    at Linter.printOutput (/opt/workspace/node_modules/eslint-loader/dist/Linter.js:95:5)\n    at Object.loader (/opt/workspace/node_modules/eslint-loader/dist/index.js:26:10)\n    at LOADER_EXECUTION (/opt/workspace/node_modules/loader-runner/lib/LoaderRunner.js:132:14)\n    at runSyncOrAsync (/opt/workspace/node_modules/loader-runner/lib/LoaderRunner.js:133:4)\n    at iterateNormalLoaders (/opt/workspace/node_modules/loader-runner/lib/LoaderRunner.js:250:2)\n    at /opt/workspace/node_modules/loader-runner/lib/LoaderRunner.js:223:4\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"

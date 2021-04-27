@@ -1,1 +1,54 @@
-(()=>{"use strict";var t={923:function(t,e,r){t=r.nmd(t);var a=this&&this.__importDefault||function(t){return t&&t.__esModule?t:{default:t}};Object.defineProperty(e,"__esModule",{value:!0}),e.cliparser=void 0;var s=r(457),o=a(r(605)),n=a(r(747));if(e.cliparser=new s.CliParser({host:{data:"127.0.0.1",advanced:{required:!1,short:"h"}},port:{data:8765,advanced:{required:!1,short:"p"}},html:{data:"index.html",advanced:{required:!0,location:1}},test:{data:!1,advanced:{required:!1,short:""}},help:{usage:"[Usage] node displayHtml.js [-h|--host HOST] [-p|--port PORT] [--help] html\nOptions:\n-h|--host HOST: Host that will be used to start HTTP Server. (default: 127.0.0.1)\n-p|--port PORT: Port that will be used to start HTTP Server. (default: 8765)\n--help        : Display help.\nhtml          : HTML file you want to display with HTTP Server.",description:"This CLI shows the preview of HTML."}}),r.c[r.s]===t){e.cliparser.parse(process.argv);var i=e.cliparser.getParams();o.default.createServer((function(t,e){e.writeHead(200,{"content-type":"text/html"}),n.default.createReadStream(i.html.data).pipe(e)})).listen(i.port.data),console.log("'"+i.html.data+"' is displayed on HTTP Server launched with "+i.host.data+":"+i.port.data)}},791:function(t,e){var r,a=this&&this.__extends||(r=function(t,e){return(r=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(t,e){t.__proto__=e}||function(t,e){for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&&(t[r]=e[r])})(t,e)},function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Class extends value "+String(e)+" is not a constructor or null");function a(){this.constructor=t}r(t,e),t.prototype=null===e?Object.create(e):(a.prototype=e.prototype,new a)});Object.defineProperty(e,"__esModule",{value:!0}),e.CliParserArgError=e.CliParserConstructorError=void 0;var s=function(t){function e(e){var r=this.constructor,a=t.call(this,e)||this;return a.name=r.name,a}return a(e,t),e}(Error);e.CliParserConstructorError=s;var o=function(t){function e(e){var r=this.constructor,a=t.call(this,e)||this;return a.name=r.name,a}return a(e,t),e}(Error);e.CliParserArgError=o},457:(t,e,r)=>{Object.defineProperty(e,"__esModule",{value:!0}),e.CliParser=void 0;var a=r(970),s=r(791),o=function(){function t(t){this.params=t;try{if(""===t.help.usage)throw new s.CliParserConstructorError("CliParser cannot permit strictly to use this CLI because of invalid in constructor argument 'usage'.");if(Object.keys(t).length!==new Set(Object.keys(t)).size)throw new s.CliParserConstructorError("Found duplicated long argument names.");if(this.getShortArgNames().length!==new Set(this.getShortArgNames()).size)throw new s.CliParserConstructorError("Found duplicated short argument names.")}catch(t){console.error(t.name+": "+t.message),process.exit(1)}}return t.prototype.getParams=function(){return this.params},t.prototype.getArgNames=function(){return Object.keys(this.params)},t.prototype.getShortArgNames=function(){for(var t=[],e=0,r=this.getArgNames();e<r.length;e++){var s=r[e];if(a.isOptionAdvanced(this.params[s].advanced)){var o=this.params[s].advanced.short;""!==o&&t.push(o)}}return t},t.prototype.getArgNameFromShortArgName=function(t){for(var e=0,r=this.getArgNames();e<r.length;e++){var s=r[e];if(a.isOptionAdvanced(this.params[s].advanced)&&t===this.params[s].advanced.short)return[s,""]}return["","Not found argument from short argument '"+t+"'."]},t.prototype.getHelp=function(){var t="";return""!==this.params.help.description&&(t=this.params.help.description+"\n"),""+t+this.params.help.usage},t.prototype.updateValueData=function(t,e){for(var r=0,s=this.getArgNames();r<s.length;r++){var o=s[r];if(a.isValueAdvanced(this.params[o].advanced)&&t===this.params[o].advanced.location)return this.updateParamData(o,e),[o,""]}return["","Location '"+t+"' is out of argument values."]},t.prototype.updateParamData=function(t,e){try{switch(typeof this.params[t].data){case"string":if(e.startsWith("-"))throw new s.CliParserArgError("Detected danger in consecutive arguments '"+t+"' and '"+e+"'. If you want set strings start with '-', you should enclose the string with quotes(single or double).");if(/('.*'|".*")/.test(e)){var r=e.match(/(?<=('|")).*?(?=('|"))/);r&&(e=r[0])}this.params[t].data=e;break;case"boolean":this.params[t].data=!this.params[t].data;break;case"number":if(isNaN(Number(e)))throw new TypeError;this.params[t].data=Number(e);break;default:throw new TypeError}}catch(r){r instanceof TypeError?console.error(r.name+": Invalid type in argument '"+t+"'(expected "+typeof this.params[t].data+", but "+typeof e+")."):console.error(r.name+": "+r.message),process.exit(1)}return""},t.prototype.getInitialIsUpdatedRequreds=function(){for(var t={},e=0,r=this.getArgNames();e<r.length;e++){var s=r[e];a.isHelpOption(this.params[s])||this.params[s].advanced.required&&(t[s]=!1)}return t},t.prototype.parse=function(t){var e=this.getArgNames(),r=this.getInitialIsUpdatedRequreds(),o=1;try{for(var n=2;n<t.length;n++){var i=t[n],p="";if(i.startsWith("--")){if(p=i.slice(2),!e.includes(p))throw new s.CliParserArgError("CliParser cannot find argument '"+p+"'.")}else if(i.startsWith("-")){var u=this.getArgNameFromShortArgName(i.slice(1)),c=u[0],l=u[1];if(p=c,""!==l)throw new s.CliParserArgError(l)}if(a.isHelpOption(this.params[p]))"help"===p&&(console.log(this.getHelp()),process.exit(0));else{if(""!==p)"boolean"!=typeof this.params[p].data?this.updateParamData(p,t[++n]):this.updateParamData(p,"");else{var d=this.updateValueData(o++,i);if(c=d[0],l=d[1],p=c,""!==l)throw new s.CliParserArgError(l)}a.isHelpOption(this.params[p])||this.params[p].advanced.required&&(r[p]=!0)}}var h=Object.keys(r).filter((function(t){return!r[t]}));if(h.length>0)throw new s.CliParserArgError("CliParser cannot find required arguments.("+h.map((function(t){return"'"+t+"'"})).join(", ")+")");this.params.test.data&&(process.stdout.write("c"),console.log(this.params),process.exit(0))}catch(t){console.error(t.name+": "+t.message),process.exit(1)}return this},t}();e.CliParser=o},970:(t,e)=>{Object.defineProperty(e,"__esModule",{value:!0}),e.isCommonOption=e.isHelpOption=e.isValueAdvanced=e.isOptionAdvanced=void 0,e.isOptionAdvanced=function(t){return null!==t&&"object"==typeof t&&"string"==typeof t.short},e.isValueAdvanced=function(t){return null!==t&&"object"==typeof t&&"number"==typeof t.location},e.isHelpOption=function(t){return null!==t&&"object"==typeof t&&"string"==typeof t.usage},e.isCommonOption=function(t){return null!==t&&"object"==typeof t&&(e.isOptionAdvanced(t.advanced)||e.isValueAdvanced(t.advanced))}},747:t=>{t.exports=require("fs")},605:t=>{t.exports=require("http")}},e={};function r(a){var s=e[a];if(void 0!==s)return s.exports;var o=e[a]={id:a,loaded:!1,exports:{}};return t[a].call(o.exports,o,o.exports,r),o.loaded=!0,o.exports}r.c=e,r.nmd=t=>(t.paths=[],t.children||(t.children=[]),t),r(r.s=923)})();
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.cliparser = void 0;
+var tscliparser_1 = require("~~/tscliparser/tscliparser");
+var http_1 = __importDefault(require("http"));
+var fs_1 = __importDefault(require("fs"));
+exports.cliparser = new tscliparser_1.CliParser({
+    host: {
+        data: "127.0.0.1",
+        advanced: {
+            required: false,
+            short: "h",
+        },
+    },
+    port: {
+        data: 8765,
+        advanced: {
+            required: false,
+            short: "p",
+        },
+    },
+    html: {
+        data: "index.html",
+        advanced: {
+            required: true,
+            location: 1,
+        },
+    },
+    test: {
+        data: false,
+        advanced: {
+            required: false,
+            short: "",
+        },
+    },
+    help: {
+        usage: "[Usage] node displayHtml.js [-h|--host HOST] [-p|--port PORT] [--help] html\nOptions:\n-h|--host HOST: Host that will be used to start HTTP Server. (default: 127.0.0.1)\n-p|--port PORT: Port that will be used to start HTTP Server. (default: 8765)\n--help        : Display help.\nhtml          : HTML file you want to display with HTTP Server.",
+        description: "This CLI shows the preview of HTML.",
+    },
+});
+if (require.main === module) {
+    exports.cliparser.parse(process.argv);
+    var cliParams_1 = exports.cliparser.getParams();
+    var server = http_1.default.createServer(function (req, res) {
+        res.writeHead(200, { "content-type": "text/html" });
+        fs_1.default.createReadStream(cliParams_1.html.data).pipe(res);
+    });
+    server.listen(cliParams_1.port.data);
+    console.log("'" + cliParams_1.html.data + "' is displayed on HTTP Server launched with " + cliParams_1.host.data + ":" + cliParams_1.port.data);
+}
+//# sourceMappingURL=displayHtml.js.map
