@@ -1,6 +1,6 @@
 {
   "name": "tscliparser",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,7 @@
     "onetest": "mocha --require ts-node/register --require tsconfig-paths/register --watch-extensions ts",
     "dev@webpack": "webpack --config webpack.dev.js",
     "build@webpack": "webpack --config webpack.prod.js",
+    "npmpack@webpack": "webpack --config webpack.npmpack.js",
     "tsc": "tsc",
     "watch": "webpack -w --config webpack.dev.js",
     "lint": "eslint './**/*.ts'",
@@ -21,7 +22,8 @@
     "parser",
     "cliparser",
     "tscliparser",
-    "command"
+    "command",
+    "typescript"
   ],
   "author": "Goki Sugimura",
   "homepage": "https://github.com/KagenoMoheji/tscliparser",
