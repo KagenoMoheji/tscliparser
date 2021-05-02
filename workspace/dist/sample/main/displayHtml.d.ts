@@ -1,6 +1,6 @@
 import { CliParams, OptionAdvanced, ValueAdvanced, HelpOption } from "~~/tscliparser/types/typesTsCliParser";
 import { CliParser } from "~~/tscliparser/tscliparser";
-interface ParamsDisplayHtml extends CliParams {
+export interface ParamsDisplayHtml extends CliParams {
     host: {
         data: string;
         advanced: OptionAdvanced;
@@ -23,4 +23,3 @@ interface ParamsDisplayHtml extends CliParams {
     };
 }
 export declare const cliparser: CliParser<ParamsDisplayHtml>;
-export {};

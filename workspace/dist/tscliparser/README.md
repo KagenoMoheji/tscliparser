@@ -27,8 +27,9 @@ import { CliParser } from "tscliparser/tscliparser";
 
 /*
 (2) Define CLI arguments with interface(extends CliParams).
+If you want to test, you have to export interface(extends CliParams).
 */
-interface ParamsDisplayHtml extends CliParams {
+export interface ParamsDisplayHtml extends CliParams {
     host: { // User add.
         data: string;
         advanced: OptionAdvanced;
@@ -111,40 +112,20 @@ if (require.main === module) {
 
 #### Test
 ```
-import * as assert from "assert";
 import {
-    CliDataType,
-    CommonOption
-} from "tscliparser/types/typesTsCliParser";
+    testTsCliParser
+} from "tscliparser/test/testTsCliParser";
 import {
-    cliparser,
+    ParamsDisplayHtml,
+    cliparser
 } from "~~/sample/main/displayHtml";
 
 describe("test CLI displayHtml", () => {
-    const testExecDisplayHtml = (
-        cmd: string,
-        expesct: {
-            params: {
-                [argName: string]: CliDataType;
-            };
-            errMsg?: string;
-        }
-    ) => {
-        const args: string[] = cmd.split(" ");
-        cliparser.parse(args);
-        // console.log(cliparser.getParams());
-        for (const argName of Object.keys(expesct.params)) {
-            it("Each argument data should match.", () => {
-                assert.strictEqual(
-                    (cliparser.getParams()[argName] as CommonOption).data,
-                    expesct.params[argName]
-                );
-            });
-        }
-    };
-
-    testExecDisplayHtml(
-        "node webpack_build/dist/displayhtml_dev.js -p 333 -h 1.1.1.1 test.html",
+    testTsCliParser<ParamsDisplayHtml>(
+        {
+            cliparser: cliparser,
+            cmd: "node webpack_build/dist/displayhtml_dev.js -p 333 -h 1.1.1.1 test.html"
+        },
         {
             params: {
                 port: 333,

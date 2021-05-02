@@ -4,11 +4,14 @@ import {
     ValueAdvanced,
     HelpOption,
 } from "~~/tscliparser/types/typesTsCliParser";
+// from "tscliparser/types/typesTsCliParser";
 import { CliParser } from "~~/tscliparser/tscliparser";
+// from "tscliparser/tscliparser";
 import http from "http";
 import fs from "fs";
 
-interface ParamsDisplayHtml extends CliParams {
+// displayHtml.test.ts用にexportしてる．
+export interface ParamsDisplayHtml extends CliParams {
     host: {
         data: string;
         advanced: OptionAdvanced;
